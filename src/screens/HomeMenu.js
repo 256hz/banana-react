@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 import Donation from '../components/Donation.js'
 import donations from '../data/donations'
 
-class HomeScreen extends React.Component {
+class HomeMenu extends React.Component {
   constructor(){
     super()
     this.state={
@@ -34,4 +34,4 @@ class HomeScreen extends React.Component {
   }
 }
 
-export default HomeScreen
+export default HomeMenu

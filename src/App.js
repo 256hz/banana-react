@@ -5,6 +5,7 @@ import LoginRegister from './screens/LoginRegister'
 import Register from './screens/Register'
 import Login from './screens/Login'
 import HomeScreen from './screens/HomeScreen'
+import HomeMenu from './screens/HomeMenu'
 
 import './App.css';
 
@@ -18,6 +19,7 @@ function App() {
             <Route exact path="/login"              component={Login}/>
             <Route exact path="/register"           component={Register}/>
             <Route exact path="/home"               component={HomeScreen}/>
+            <Route exact path="/menu"               component={HomeMenu}/>
           </div>
       </div>
     </BrowserRouter>

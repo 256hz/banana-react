@@ -1,9 +1,9 @@
 import React from 'react'
-import { Grid, Image, Divider } from 'semantic-ui-react'
+import { Grid, Image, Button } from 'semantic-ui-react'
 
 const Donation = ({details}) => {
   console.log()
-  return <Grid>
+  return <Grid width={3}>
     <Grid.Row columns={3} className="donation">
       <Grid.Column width={1}>
         <Image circular src={details.imageUrl} className='image-food' />
@@ -19,9 +19,15 @@ const Donation = ({details}) => {
         <Grid.Row>
           Pickup location: {details.pickupLocation}
         </Grid.Row>
+        <Grid.Row>
+          Time Remaining: {details.ending} min
+        </Grid.Row>
+        <Grid.Row centered>
+          <Button>Add 30 Min</Button>
+          <Button negative>Cancel</Button>
+        </Grid.Row>
       </Grid.Column>
     </Grid.Row>
-    <Divider />
   </Grid>
 }
 

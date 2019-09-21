@@ -18,7 +18,7 @@ class HomeScreen extends React.Component {
           <Grid.Row className="menu">
             <div className="text">Menu</div>
           </Grid.Row>
-          <div className="title">
+          <div className="title large-text">
             MY<br />
             DONATIONS.<br />
           </div>

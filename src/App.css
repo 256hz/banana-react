@@ -4,16 +4,20 @@
 }
 
 .App {
+  display: flex;
   background-color: var(--main-bg-color);
   width: 100vw;
   height: 100%;
   min-height: 100vh;
   font-family: 'Open Sans', sans-serif;
-  display: flex;
   align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
 }
 
 .Screen {
+  display: flex;
   width: 400px;
   height: 100%;
   flex-direction: row;
@@ -110,5 +114,9 @@
 
 .donation {
   margin-top: 25px;
-  margin-left: 20%;
+  margin-left: 10%;
+  width: 100%;
+  background-color: rgb(254,243,104);
+  padding: 10px;
+  border-radius: 5px;
 }

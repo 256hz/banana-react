@@ -8,7 +8,7 @@ const Login = () => {
       I AM A<br />
       DONOR.<br />
     </div>
-    <NavLink className="login-link" to="/register">
+    <NavLink className="login-link" to="/login">
       <div className="title">REGISTER</div>
     </NavLink>
     <NavLink className="login-link" to="/login">
